@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Menu from './componentes/Menu'
 import BoasVindas from './componentes/BoasVindas'
-{/*import Rodape from './componentes/Rodape'*/}
+import Bio from './componentes/Bio'
 
 class App extends Component {
     render() {
@@ -10,7 +10,7 @@ class App extends Component {
             <div>
                 <Menu/>
                 <BoasVindas/>
-                {/*<Rodape/>*/}
+                <Bio/>
             </div>
         )
     }

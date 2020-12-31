@@ -2,17 +2,27 @@ import React from 'react'
 import linkedin from '../linkedin.svg'
 import github from '../github.svg'
 import youtube from '../youtube.svg'
-import { Row, Col, Container, Jumbotron } from 'react-bootstrap'
+import { Row, Col, Container, Alert } from 'react-bootstrap'
 
 function BoasVindas() {
     return (      
-        <Jumbotron>
+        <Alert>
             <Container>
                 <Row>
                     <Col>
-                    
-                        <h1>Filipe <br></br> Spadetto.</h1>
-                        <br></br>
+                        
+                    </Col>
+                    <Col>
+                        <p>- Introdução</p>
+                        <h1>Filipe Spadetto.</h1>
+                        <h4>
+                            Analista de sistemas &<br></br>
+                            Desenvolvedor full-stack
+                        </h4>
+                        <p>
+                            Meu objetivo como desenvolvedor é trazer soluções e reduzir tempo/custos
+                            através de códigos e ferramentas em todos os projetos que participo.
+                        </p>
                         <a href="https://www.linkedin.com/in/filipespadetto">
                             <img src={linkedin} width="20" alt="LinkdIn logo"/>
                         </a>
@@ -25,20 +35,9 @@ function BoasVindas() {
                             <img src={youtube} width="25" alt="YouTube logo"/>
                         </a>
                     </Col>
-                    <Col>
-                        <p>- Introdução</p>
-                        <h4>
-                            Analista de sistemas &<br></br>
-                            Desenvolvedor full-stack
-                        </h4>
-                        <p>
-                            Meu objetivo como desenvolvedor é trazer soluções e reduzir custos
-                            através de códigos e ferramentas em todos os projetos que participo.
-                        </p>
-                    </Col>
                 </Row>
             </Container>
-        </Jumbotron>
+        </Alert>
     );
 }
 
